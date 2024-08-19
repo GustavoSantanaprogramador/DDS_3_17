@@ -118,6 +118,56 @@ html {
     color: var(--secondary-color);
   }
 
+  .btb{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size:1.4rem;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .red{
+    background-color: var(--secondart-color);
+    margin-right: 1.5rem;
+    
+  }
+  .red:hover{
+    background-color:#f1262d;
+    color: #fff;
+  }
+
+  .blu{
+    background-color: #f1262d;
+    color:#fff
+  }
+
+  .blue:hover{
+    background-color: #095cf7;
+    color:#fff
+  }
+
+  iframe{
+    max-width: 30rem;
+    border-top: 40px groove var(--prinary-color);
+    border-bottom: 40px groove var(--primary-color);
+    border-right: 28px solid var(--secondary-color);
+    border-left: 28px solid var(--secondary-color);
+  }
+
+  .stand-1{
+    height: 90px;
+    width: 6px;
+    background-color: var(--secondary-color);
+    transform: rotate(-40deg);
+    position: relative;
+    top: -105px;
+    left: 25px;
+  }
+
+  
+
 /* Dark theme starts*/
 
 /* Dark theme ends */
