@@ -36,11 +36,11 @@ body{
 }
 
 .navigation{
-    position: absolute;
+    position: relative;
     width: 800px;
     margin-top: -40px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
 .manual-btn{
@@ -89,4 +89,21 @@ body{
     margin-top: 360px;
     display: flex;
     justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+
+#radio1 :checked ~.navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2 :checked ~.navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+
+#radio3 :checked ~.navigation-auto .auto-btn3{
+    background-color: #fff;
 }
