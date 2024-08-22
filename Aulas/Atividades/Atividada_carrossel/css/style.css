@@ -109,4 +109,18 @@ body{
     background-color: #fff;
 }
 
+/*Celulares*/
 
+@media screen and (max-widht: 580px){
+    
+}
+
+/*Tablets*/
+@media(min-width:768px) and (max-widht: 1024px){
+
+}
+
+/*Orientação horizontal*/
+@media(orientation: landscape){
+
+}
