@@ -10,30 +10,30 @@ body{
 }
 
 .slider{
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
+    margin: 0 auto;/*centralizar o carousel horizontal*/
+    width: 800px;/*define a largura do carousel*/
+    height: 400px; /*define a altura do carousel*/
+    overflow: hidden;/*esconde o counteúdo  do carousel*/
 }
 
 .slides{
-    width: 400%;
-    height: 400px;
-    display: flex;
+    width: 400%;/*Define a largura total como  para comportar 4 slides*/
+    height: 400px; /*alutura dos slides*/
+    display: flex;/*alinha os sides*/
 }
 
-.slides input{
+.slides input{ /*Escode os botões de rádio*/
     display: none;
 }
 
 .slide{
-    width: 25%;
-    position: relative;
-    transition: 2s;
+    width: 25%;/*cada slide ocupa 25% da largura total do container*/
+    position: relative;/*posicionar os elementos dentro do slide*/
+    transition: 2s;/*trasição suave entre os slides*/
 }
 
 .slide img{
-    width: 800px;
+    width: 800px;/*largura da imagem para preencher os slide*/
 }
 
 .manual-navigation{
