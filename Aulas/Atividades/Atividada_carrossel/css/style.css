@@ -45,7 +45,7 @@ body{
 }
 
 .manual-btn{
-    border: 2px solid #fff;
+    border: 4px solid #fff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -76,7 +76,7 @@ body{
 }
 
 .navigation-auto div{
-    border: 2px solid #20a6ff;
+    border: 4px solid #20a6ff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
