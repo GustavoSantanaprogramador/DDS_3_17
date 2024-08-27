@@ -17,7 +17,7 @@ body{
 }
 
 .slides{
-    width: 400%;/*Define a largura total como  para comportar 4 slides*/
+    width: 400%;/*Define a largura total como  para comportar 3 slides*/
     height: 400px; /*alutura dos slides*/
     display: flex;/*alinha os sides*/
 }
