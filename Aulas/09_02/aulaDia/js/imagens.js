@@ -18,11 +18,9 @@ const imagens = [
 const anuncios = document.getElementById('anuncios');
 let listaAnuncios = '';
 
-for(let imagem of imagens){
-    listaAnuncios += `<img src='http://10.145.40.222:8080/public/${imagem.caminho}' alt='${imagem.alternativo}'/>`
+for (let imagem of imagens) {
+    listaAnuncios += `<img src='http://10.145.40.222:8080/public/${imagem.caminho}' alt='${imagem.alternativo}' />`
     console.log(imagem.caminho);
-    console.log(imagem.alternativo);
-
 }
 
 anuncios.innerHTML = listaAnuncios;
