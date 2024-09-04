@@ -7,7 +7,7 @@ function atualizaSaudacao() {
     //console.log(agora.getDay());
 
     // Obtendo o número da semana iniciando de 0 indo até 6
-    const dia = agora.getDay();
+    const dia = agora.getDay(); 
 
     // Criando Array de dias da semana equivalente
     const dias = ['Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado'];
